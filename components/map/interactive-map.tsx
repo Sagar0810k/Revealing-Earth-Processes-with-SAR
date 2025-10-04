@@ -1,3 +1,4 @@
+// interactive-map.tsx
 "use client"
 
 import { useEffect, useMemo, useRef, useState } from "react"
@@ -447,7 +448,7 @@ export default function InteractiveMap() {
             <MapPin className="w-5 h-5 text-primary" />
           </div>
           <div>
-            <h2 className="text-2xl font-bold text-foreground">Landslide Risk Map</h2>
+            <h2 className="text-2xl font-bold text-foreground">Landslide Risk Map </h2>
             <p className="text-sm text-muted-foreground">Haldwani Region Analysis</p>
           </div>
         </div>
@@ -512,11 +513,11 @@ export default function InteractiveMap() {
         className="h-[75vh] w-full"
         scrollWheelZoom
         zoomControl
-        attributionControl
+        attributionControl={false} // ADDED: Set attributionControl to false
         preferCanvas
       >
         <TileLayer
-          attribution='&copy; <a href="https://www.openstreetmap.org/">OSM</a> contributors'
+          attribution="" // UPDATED: Set attribution to an empty string
           url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
         />
 
