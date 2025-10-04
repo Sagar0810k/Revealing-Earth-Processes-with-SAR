@@ -178,7 +178,13 @@ export default function Page() {
       <DynamicBackground />
 
       <section id="hero" className="relative min-h-screen flex items-center overflow-hidden px-4 sm:px-6">
-        <div className="absolute inset-0 bg-gradient-to-b from-transparent via-background/30 to-background/80" />
+        <div 
+          className="absolute inset-0 bg-cover bg-center" 
+          style={{ backgroundImage: `url('/hi.jpg')` }} 
+        >
+          {/* Overlay for better text visibility */}
+          <div className="absolute inset-0 bg-black/50 from-transparent via-background/30 to-background/80" />
+        </div>
 
         {/* Floating decorative elements with enhanced animation */}
         <div className="absolute top-20 left-10 w-72 h-72 bg-primary/10 rounded-full blur-3xl animate-float" />
