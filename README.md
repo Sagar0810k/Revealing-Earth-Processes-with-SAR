@@ -10,8 +10,7 @@
 
 **A comprehensive satellite radar analysis system combining real-time monitoring, AI-powered insights, and interactive visualizations to predict and prevent landslides in Haldwani, India.**
 
-[🌐 Live Demo](https://revealing-earth-processes-with-sar.vercel.app/) | [📊 View Analytics](#) | [📖 Documentation](#) | [🎥 Video Demo](#)
-
+[🌐 Live Demo](https://revealing-earth-processes-with-sar.vercel.app/) 
 </div>
 
 ---
@@ -120,18 +119,6 @@ npm run dev
 ```
 
 Visit `http://localhost:3000` to view the application.
-
-### Environment Variables
-
-Create a `.env.local` file in the root directory:
-
-```env
-NEXT_PUBLIC_MAPBOX_TOKEN=your_mapbox_token
-NEXT_PUBLIC_API_URL=your_api_endpoint
-OPENAI_API_KEY=your_openai_key
-```
-
----
 
 ## 📡 How It Works
 
@@ -287,33 +274,8 @@ This methodology can be applied to:
 - Volcanic deformation monitoring
 - Infrastructure health monitoring
 
----
 
-## 🤝 Contributing
 
-We welcome contributions! Here's how you can help:
-
-1. **Fork** the repository
-2. **Create** a feature branch (`git checkout -b feature/AmazingFeature`)
-3. **Commit** your changes (`git commit -m 'Add some AmazingFeature'`)
-4. **Push** to the branch (`git push origin feature/AmazingFeature`)
-5. **Open** a Pull Request
-
-### Areas for Contribution
-- 🧠 Improved machine learning models
-- 🗺️ Additional geographic regions
-- 📱 Mobile app development
-- 🌐 Internationalization (i18n)
-- 📊 New data visualization techniques
-- 🔧 Performance optimizations
-
----
-
-## 📜 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
 
 ## 🙏 Acknowledgments
 
