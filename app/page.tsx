@@ -203,7 +203,7 @@ export default function Page() {
                   <br />
                   <span className="text-foreground">Before They Happen</span>
                 </h1>
-                <p className="text-pretty text-base sm:text-lg md:text-xl lg:text-2xl text-muted-foreground max-w-3xl leading-relaxed">
+                <p className="text-pretty text-base sm:text-lg md:text-xl lg:text-2xl text-white max-w-3xl leading-relaxed">
                   A comprehensive satellite radar analysis of Haldwani combining real-time monitoring, AI-powered
                   insights, and interactive visualizations to protect our community.
                 </p>
