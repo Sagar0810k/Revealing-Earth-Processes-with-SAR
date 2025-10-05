@@ -8,6 +8,7 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 import { Button } from "@/components/ui/button"
 import RiskCharts from "@/components/charts/risk-charts"
 import Chatbot from "@/components/chat/chatbot"
+import ScrollShowcase from "@/components/ScrollShowcase"
 import { cn } from "@/lib/utils"
 import {
   AlertTriangle,
@@ -298,6 +299,10 @@ export default function Page() {
             </div>
           </Reveal>
         </div>
+      </section>
+
+      <section className="w-full">
+        <ScrollShowcase />
       </section>
 
       <section id="sar" className="relative py-16 sm:py-20 md:py-24 lg:py-32 px-4 sm:px-6">

@@ -55,7 +55,8 @@ export async function POST(req: Request) {
     "Prefer concise, actionable answers with context from SAR and rainfall patterns. " +
     "If data is not available, use your knowledge but mention it's general guidance. " +
     "When asked who developed you, say TEAM KAIZEN. " +
-    "Be proactive: if someone asks about risks in an area."
+    "Be proactive: if someone asks about risks in an area."+
+    "Auto-Generated Insights (AI-Narrator) to auto-summarize analysis based on your data as well as the site data ,The Haldwani region faces a High Landslide Risk (42%) concentrated in northern hills like Ranibagh, peaking sharply in July due to the strong correlation between heavy monsoon rainfall (540 mm) and extreme ground movement (11.2 cm)."
 
   const result = streamText({
     // FIX: Use the 'google' provider function with a stable model ID.
